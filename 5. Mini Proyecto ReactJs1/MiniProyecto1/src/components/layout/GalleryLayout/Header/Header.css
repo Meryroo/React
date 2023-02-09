@@ -4,4 +4,9 @@ header{
     align-items: center;
     background-color: black;
     width: 100vw;
+    color: whitesmoke;
+    
+}
+header h1{
+    text-transform: uppercase;
 }
