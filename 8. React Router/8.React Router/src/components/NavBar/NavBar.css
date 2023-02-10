@@ -1,0 +1,6 @@
+.navbar ul{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap:4rem;
+}

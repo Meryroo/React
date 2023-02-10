@@ -1,0 +1,7 @@
+.main-layout{
+    display: grid;
+    grid-template-rows:
+    12vh
+    76vh
+    10vh;
+}
