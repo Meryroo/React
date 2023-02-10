@@ -1,0 +1,10 @@
+.languages-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: var(--padding);
+    gap:1.5rem
+
+}

@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: var(--padding);
+    gap: 3rem;
+    background-color: var(--header-bg);
+}
+
+.header button{
+background: none;
+background-color: transparent;
+padding: 0.2rem 0.5rem;
+border-radius: 5px;
+font-size: 1rem;
+}
+.header button:hover{
+    background-color: rgb(189, 189, 179);
+}
