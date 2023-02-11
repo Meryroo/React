@@ -1,0 +1,33 @@
+.watch-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    width: 40%;
+    border-radius: 10px;
+    padding: 1.2rem ;
+    background-color:  rgba(179, 155, 207, 0.8);;
+}
+
+.stopwatch{
+    font-size: 3rem;
+    font-family: monospace, sans-serif;
+    color: rgb(229, 235, 66);
+  
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+button{
+    margin: 1rem;
+    background: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: monospace, sans-serif;
+    border-radius: 6px;
+    color: rgb(229, 235, 66);
+    font-weight: 700;
+    border-color: rgb(229, 235, 66);
+}
