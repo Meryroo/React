@@ -1,0 +1,69 @@
+:root{
+  --pallete1: #6EA4BB;
+  --palette2: #E7E7E6;
+  --pallete3: #464646;
+  --palette4: #C04C4B;
+  --pallete5: #F0DBA5;
+
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 220px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Calibri', sans-serif;
+  font-size: 24px;
+}
+.TitleSection{
+  background-color:var(--pallete1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--palette2);
+  padding-top: 1rem;
+
+
+}
+
+.TitleSection input{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #5e98b1;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.TitleSection button{
+  width: 180px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+  color:#E7E7E6;
+  background-color: #006cbf;
+}
+
+.TitleSection button:hover{
+  cursor: pointer;
+}
+
+.DisplaySection h1{
+  text-transform: capitalize;
+}
