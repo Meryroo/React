@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+
+h1,h2{
+  text-align: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+input{
+  font-size: 1.5rem;
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+}
+body{
+ background-color: black;
+ 
+}
+

@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+   
+}
+.container img{
+    width: 600px;
+    padding: 2rem;
+    
+     
+   
+}
+.title img{
+    width: 120px;
+    
+    
+}
+.title{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+   
+}
+
