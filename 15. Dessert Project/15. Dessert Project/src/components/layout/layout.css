@@ -1,0 +1,8 @@
+.container{
+    display: grid;
+    grid-template-rows: 
+    14vh
+    1fr
+    10vh    
+    ;
+}

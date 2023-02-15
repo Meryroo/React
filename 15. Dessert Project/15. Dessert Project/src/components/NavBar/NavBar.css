@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+
+.navbar ul{
+display: flex;
+justify-content: right;
+gap: 5rem;
+
+}
+
