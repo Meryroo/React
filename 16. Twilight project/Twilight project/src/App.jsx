@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <LayoutMain>
 <Header>
-<NavBar></NavBar>
+<NavBar/>
 </Header>
 <Outlet/>
 <Footer></Footer>
