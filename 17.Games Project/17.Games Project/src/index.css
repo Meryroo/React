@@ -16,7 +16,7 @@ padding: 0;
 box-sizing: border-box;
 list-style: none;
 text-decoration: none;
-color: var(--color-primary);
+color: black;
 font-size: 1.1rem;
 font-family: 'Roboto', sans-serif;
 }
@@ -42,7 +42,7 @@ header{
  
 }
 a{
-  color: inherit;
+  color: whitesmoke;
   transition: all 0.5s ease-in-out;
 }
 

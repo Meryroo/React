@@ -16,6 +16,7 @@ const {id} = useParams();
         const data = await res.data;
         setCharacters(data);
         setFilteredCharacters(data)
+        localStorage.setItem("characters",(data))
         
     }
 

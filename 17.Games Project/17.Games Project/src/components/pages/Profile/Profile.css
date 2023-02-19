@@ -1,0 +1,16 @@
+.profile{
+   display: flex; 
+   justify-content: flex-end;
+   align-items: center;
+   padding: 0rem 4rem;
+   background-color:var(--color-yellow);
+   height: 12%;
+
+   
+}
+.profile h2{
+    font-size: 2rem;
+    padding: 0 2rem;
+    border-radius: 1rem;
+    
+}

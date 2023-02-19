@@ -1,28 +1,37 @@
+import "./GalleryDetail.css"
 import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { UserContext } from "../../context";
 
-const GalleryDetail = () => {
-    const {characters} = useContext(UserContext)
+const GalleryDetail =  () => {
+    const {id} = useParams()
     const [detail, setDetail] = useState([])
-    const {id} = useParams();
-    const getDetail = () => {
-        setDetail(characters.find((character) => character.id ==id))
-        
-    }
+   const {characters} = useContext(UserContext);
+   const abilities = characters.abilities;
+   console.log(characters)
 
-   useEffect(()=> {
-    getDetail();
-    console.log(detail.abilities)
-   },[id])
-
-
-    return (<main>
-<img src={detail.image} alt={detail.name}/>
-<h3>{detail.name}</h3>
-<p>Species: {detail.species}</p>
-<p>Height: {detail.heihgt} cm</p>
-<p>Abilities: {detail.abilities[0]}</p>
+   const getDetail = () => {
+    setDetail(characters.find((character) => character.id == id))
+   }
+  
+   useEffect(() => {
+    getDetail()
+    
+   },[])
+    return (<main className="detail-container">
+<figure className="card-detail">
+<div className="detail-img">
+    <img src={detail.image} alt={detail.name}/>
+    </div>
+    <div className="detail-rest">
+    <h2>{detail.name}</h2>
+    <p><strong>Species: </strong>{detail.species}</p>
+    <p><strong>Height: </strong>{detail.heihgt} cm</p>
+    <p><strong>Abilitie:</strong> {detail.abilities}</p>
+    <p><strong>Description:</strong> {detail.description}</p>
+    </div>
+    
+</figure>
     </main>)
 
 }

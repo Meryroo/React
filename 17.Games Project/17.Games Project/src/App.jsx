@@ -11,6 +11,7 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import GalleryDetail from "./components/pages/GalleryDetail/GalleryDetail";
 
+
 import "./App.css";
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
         <NavBar />
       </Header>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home/>}/> 
         <Route path="/gallery" element={
          <ProtectecRoute>
         <Gallery />

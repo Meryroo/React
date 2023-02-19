@@ -24,7 +24,7 @@ const navigate = useNavigate();
     <button onClick={() => {
     setUser(inputText.current.value)
     localStorage.setItem("user", inputText.current.value)
-    navigate("/gallery")
+    navigate("/profile")
 }
     }>Log In</button>
     </span>

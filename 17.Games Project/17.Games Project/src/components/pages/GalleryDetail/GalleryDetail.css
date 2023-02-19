@@ -1,0 +1,40 @@
+.detail-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card-detail{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(245, 245, 245,0.6);
+    width: 60%;
+    height: 70%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    
+}
+.detail-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-img img{
+    height: 400px;
+}
+
+.detail-rest{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 0.5rem;
+    
+}
+ .detail-rest p{
+    font-size: 0.9rem;
+}
+.detail-rest h2{
+    text-transform: uppercase;
+}
