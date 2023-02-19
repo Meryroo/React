@@ -1,0 +1,94 @@
+.gallery-container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    padding: 4rem 4rem;
+    gap: 2rem;
+     
+    
+}
+.gallery-container figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    padding: 2rem 0;
+    border-radius: 1.5rem;
+    gap:0.5rem;
+    background-color: whitesmoke;
+    border: 6px solid var(--color-hilight);
+    
+   
+}
+.gallery-container figure h3, .gallery-container figure p{
+    color: black;
+}
+
+.gallery-container figure img{
+    height: 250px;
+    
+   
+}
+
+ .search-bar{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 2rem 4rem;
+gap: 21rem;
+background-color: var(--color-hilight);
+height:2%;
+
+}
+.search-bar span{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+}
+.search-bar span a:hover{
+    color:black;
+}
+
+.search-bar a img{
+
+    width: 6%;
+}
+
+.search-bar a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+}
+
+.gallery-input{
+    min-height: 81vh ;
+}
+.carta-box {
+    margin: 100px;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    perspective: 1000px;
+    
+  }
+  
+  .carta-box:hover .carta {
+      transform: rotateY(180deg);
+  }
+  
+  .carta {
+    transform-style: preserve-3d;
+    transition: all 0.5s linear;
+  }
+  
+  .cara {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .cara.detras {
+    transform: rotateY(180deg);
+  }

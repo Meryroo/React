@@ -1,0 +1,15 @@
+.header{
+   background-image: url("https://res.cloudinary.com/dnkacmdmh/image/upload/v1676773451/black-diagonal-stripes-pattern-wallpaper-preview_awtiwz.jpg"); 
+   width: 100%;
+   padding: 2rem 5rem;
+  
+    
+}
+
+
+.header nav ul{
+display: flex;gap: 2rem;
+justify-content: flex-end;
+font-weight: bold;
+
+}
