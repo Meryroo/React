@@ -19,6 +19,7 @@ const GalleryDetail =  () => {
     
    },[])
     return (<main className="detail-container">
+        
 <figure className="card-detail">
 <div className="detail-img">
     <img src={detail.image} alt={detail.name}/>

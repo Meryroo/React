@@ -3,4 +3,12 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-hilight);
+   
+}
+
+@media screen and (max-width:1100px) {
+    .footer{
+        display: none;
+    }
+    
 }
