@@ -1,17 +1,19 @@
-.countDown{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 20vh;
-    padding-top: 5rem;
+.countDown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  padding-top: 5rem;
 }
 
-.countDown h2{
-    padding: 2rem 4rem;
-    font-size: 2rem;
-    border-radius: 12px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    color:  rgba(179, 155, 207, 0.8);
-    font-family: monospace;
+.countDown h2 {
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  border-radius: 12px;
+  box-shadow: rgba(22, 122, 199, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  color: black;
+  background-color: aquamarine;
+  font-family: monospace;
 }
